@@ -8,7 +8,7 @@ pipeline {
     stage('compile/Build') {
         steps{
             script{
-                common.compile
+                common.compile()
 
             }
         
