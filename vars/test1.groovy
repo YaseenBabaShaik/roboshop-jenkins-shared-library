@@ -1,7 +1,3 @@
-def abc = "Hello"
-def xyz =10
-
-print "abc = ${abc}"
-print "xyz = ${10}"
-
-print abc
+def new1(){
+print "hello"
+}
