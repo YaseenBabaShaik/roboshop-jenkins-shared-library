@@ -4,7 +4,7 @@ def new1(){
  print "xyz = ${xyz}"
  print "abc = ${abc}"
 
- if (abc =="Some data"){
+ if (abc == "Some data"){
     print "Yes"
  }
  else{
