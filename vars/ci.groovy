@@ -7,7 +7,11 @@ pipeline {
     stages {
     stage('compile/Build') {
         steps{
-            echo "compile"
+            script{
+                common.compile
+
+            }
+        
         }
     }
     stage('Unit Tests') {
