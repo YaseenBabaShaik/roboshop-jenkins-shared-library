@@ -3,7 +3,7 @@ def call() {
 
     //options {
       //ansiColor('xterm')
-    }
+    //}
 
     agent {
       node {
