@@ -34,6 +34,4 @@ def call() {
         cleanWs()
       }
     }
-
-
     }
